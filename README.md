@@ -26,31 +26,11 @@ microsoft.com
 
 # 🎯 Objectives
 
-The project consisted of two reconnaissance tasks.
-
-### Task 1
-
-Use theHarvester with **Baidu** to identify publicly available:
-
-* Email addresses
-* Hosts/subdomains
-* Other reconnaissance information
-
-Command used:
-
-```bash
-theHarvester -d microsoft.com -l 1000 -b baidu
-```
-
-### Task 2
-
-Use theHarvester with **all available sources** and a result limit of 50.
-
-Command used:
-
-```bash
-theHarvester -d microsoft.com -l 50 -b all
-```
+* Use theHarvester in Kali Linux to perform passive reconnaissance on microsoft.com.
+* Use Baidu to identify publicly available email addresses and hosts/subdomains.
+* Use all available sources in theHarvester to collect additional reconnaissance information.
+* Set and use different result limits for each task: 1000 for Baidu and 50 for all sources.
+* Review and document the reconnaissance results.
 
 ---
 
@@ -319,11 +299,9 @@ I learned how to:
 
 ---
 
-# 🧰 Tools Used
+# 🧰 Tools & Resources
 
-### Kali Linux
-
-Operating system used to perform the practical reconnaissance exercises.
+### Kali Linux: [https://kali.org/get-kali]
 
 ### theHarvester
 
@@ -332,10 +310,6 @@ Used to collect publicly available information associated with the target domain
 ### Baidu
 
 Used as the search source for Task 1.
-
-### Public Information Sources
-
-Task 2 used the available sources configured in theHarvester installation.
 
 ---
 
@@ -356,3 +330,18 @@ Passive reconnaissance can reveal information that organizations did not intend 
 This repository documents a cybersecurity training exercise. The information-gathering techniques demonstrated here should only be performed within an authorized lab, against systems you own, or against systems where you have explicit permission to conduct security testing.
 
 The results documented in this repository represent information returned by the tools during the exercise and should not be interpreted as a confirmation of vulnerabilities or unauthorized access.
+
+---
+
+# 👤 Author
+Malehloa Seroke
+Cybersecurity Professional B082
+
+LinkedIn: [www.linkedin.com/in/malehloa-seroke]
+
+---
+# 📌 Project Information
+Program Name: Cybersecurity at Networkwalks | Week: 02 | Project: WK2-PM1-Footprinting-Reconnaissance-with-Kali-Linux | Repository: GitHub
+
+
+
